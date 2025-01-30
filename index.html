@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calc">
+        <h2 id="res"></h2>
+        <table>
+            <tr>
+                <td onclick="Apag()">AC</td>
+                <td onclick="Dele()"><=</td>
+                <td onclick="clicou('.')">.</td>
+                <td onclick="clicou('/')">/</td>
+            </tr>
+
+            <tr>
+                <td onclick="clicou(9)">9</td>
+                <td onclick="clicou(8)">8</td>
+                <td onclick="clicou(7)">7</td>
+                <td onclick="clicou('*')">*</td>
+            </tr>
+
+            <tr>
+                <td onclick="clicou(6)">6</td>
+                <td onclick="clicou(5)">5</td>
+                <td onclick="clicou(4)">4</td>
+                <td onclick="clicou('-')">-</td>
+            </tr>
+
+            <tr>
+                <td onclick="clicou(3)">3</td>
+                <td onclick="clicou(2)">2</td>
+                <td onclick="clicou(1)">1</td>
+                <td onclick="clicou('-')">+</td>
+            </tr>
+
+            <tr>
+                <td onclick="clicou(0)">0</td>
+                <td onclick="clicou('%')">%</td>
+                <td id="mob" colspan="2" onclick="Somou()">=</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
