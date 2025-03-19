@@ -1,4 +1,4 @@
-# Calculadora Simples
+![Calculadora simples](imagem/calculadora.png)
 
 ## Descrição
 Esta é uma calculadora básica construída com HTML, CSS e JavaScript. Ela permite realizar operações aritméticas simples como adição, subtração, multiplicação, divisão e porcentagem.
