@@ -83,7 +83,7 @@ td {
         color: black;
     }
 
-    #mob {
-        border-radius: 20px;
+    #res {
+        border: 1px solid black;
     }
 }
