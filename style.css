@@ -53,32 +53,32 @@ td {
     }
 
     #calc {
-        background-color: transparent;
-        height: 100%;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        background-color: skyblue;
+        height: 95%;
+        width: 90%;
     }
 
     table {
-        padding: 10px;
+        height: 85%;
+        width: 95%;
         background-color: skyblue;
+        margin: auto;
+        justify-items: end;
     }
 
     td {
         background-color: black;
-        height: 40px;
-        width: 40px;
     }
 
-    #res {    
-        padding-bottom: 10px;     
-        height: 50px;
+    #res {  
+        display: flex;
+        width: 93%;      
+        height: 80px;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         background-color: skyblue;
-        padding-top: 10px;
-        border-radius: 14px 14px 0 0;
         color: black;
     }
 }
